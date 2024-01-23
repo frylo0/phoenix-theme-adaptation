@@ -40312,3 +40312,23 @@ html:not(.navbar-vertical-collapsed) .navbar-vertical .firefox .chat-sidebar .na
 	cursor: -webkit-grabbing;
 	cursor: grabbing
 }
+
+:root {
+	--phoenix-card-spacer-y: 1.5rem;
+	--phoenix-card-spacer-x: 1.5rem;
+	--phoenix-card-title-spacer-y: 1rem;
+	--phoenix-card-border-width: 1px;
+	--phoenix-card-border-color: var(--phoenix-gray-200);
+	--phoenix-card-border-radius: 0.5rem;
+	--phoenix-card-box-shadow: ;
+	--phoenix-card-inner-border-radius: calc(0.5rem - 1px);
+	--phoenix-card-cap-padding-y: 1.5rem;
+	--phoenix-card-cap-padding-x: 1.5rem;
+	--phoenix-card-cap-bg: var(--phoenix-card-cap-bg);
+	--phoenix-card-cap-color: ;
+	--phoenix-card-height: ;
+	--phoenix-card-color: ;
+	--phoenix-card-bg: #fff;
+	--phoenix-card-img-overlay-padding: 1rem;
+	--phoenix-card-group-margin: 1rem;
+}
