@@ -1,4 +1,4 @@
-# JSX Code Style
+# TSX Code Style
 
 **КЛЮЧЕВОЙ ПРИНЦИП: Читаемость.**
 
@@ -10,13 +10,11 @@
 ## СТРУКТУРА КОДА:
 
 ```jsx
-// Импорты разделены по типам
+// Импорты сортируются автоматически
 
-// Сперва идут те, что реже изменяются, например подключение scss файла
 import { s } from './Some.css';
 import cn from 'clsx';
 
-// Потом библиотеки
 import React, {
 	ReactElement,
 	ReactNode,
@@ -26,7 +24,6 @@ import React, {
 	useState,
 } from 'react';
 
-// Потом компоненты
 import { TabProps } from '@/components/common/tabs/Tab/Tab';
 import { TabTitle } from '@/components/common/tabs/TabTitle/TabTitle';
 import { TabContent } from '@/components/common/tabs/TabContent/TabContent';
@@ -49,7 +46,7 @@ export const Tabs: React.FC<TabsProps> = ({
 	children,
 	isContentReady = true,
 }) => {
-    // В компоненте все сортируется в порядке: useRef, useState, useCallback, useEffect
+    // В компоненте все сортируется в порядке: useRef, useState, useEffect
     // Порядок можно ТОЧЕЧНО нарушать если это мешает реализации
     // Хуки разных типов разделяются отступами
 

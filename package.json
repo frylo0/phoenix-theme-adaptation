@@ -1,15 +1,10 @@
 {
-	"name": "typescript-nextjs-starter",
-	"description": "A TypeScript starter for Next.js that includes all you need to build amazing projects",
+	"name": "phoenix-theme-adaptation",
+	"description": "A phoenix theme adopted for Next.js",
 	"version": "1.0.0",
 	"private": true,
-	"author": "João Pedro Schmitz <hey@joaopedro.dev> (@jpedroschmitz)",
+	"author": "frylo0",
 	"license": "MIT",
-	"keywords": [
-		"nextjs",
-		"starter",
-		"typescript"
-	],
 	"scripts": {
 		"dev": "next",
 		"start": "next start",
