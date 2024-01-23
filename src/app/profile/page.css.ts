@@ -3,10 +3,9 @@ import { style } from '@vanilla-extract/css';
 const main = style({
 	display: 'flex',
 	flexDirection: 'column',
-	justifyContent: 'space-between',
+	justifyContent: 'center',
 	alignItems: 'center',
-	padding: '6rem',
-	minHeight: '100vh',
+	gap: '1em',
 	color: 'white',
 });
 

@@ -92,6 +92,7 @@ Folder `/src/components` is divided to few folders. Take a look at the main idea
 ## Code style
 
 -   [TSX](./README/jsx-codestyle.md)
+-   [CSS TS](./README/css-ts-codestyle.md)
 
 ## Documentation
 
