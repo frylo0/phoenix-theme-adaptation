@@ -1,7 +1,7 @@
 import { style } from '@vanilla-extract/css';
 
-const someSection = style({});
+const footer = style({});
 
 export const s = {
-	someSection,
+	footer,
 };
