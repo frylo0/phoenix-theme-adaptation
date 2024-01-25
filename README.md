@@ -1,6 +1,14 @@
-# Next.js Modern Starter 2024
+# Phoenix Theme Adaptation
 
-This project is maintained by the @frylo-d-ts.
+This project is maintained by the @frylo0.
+
+&copy; Source of idea: https://prium.github.io/phoenix/v1.13.0/apps/social/feed.html.
+
+## Result
+
+https://phoenix-frylo.vercel.app/
+
+![Stage screenshot](./README/stage.png)
 
 ## Reference
 
@@ -126,23 +134,23 @@ It is run ONLY for **STAGED** files. So do not be worried to make commits.
 
 Format of branch names:
 
-> PROJ-{task-number}-{short-description}
+> PHX-{task-number}-{short-description}
 
 Examples:
 
--   `PROJ-821-fix-bug` - if task exists when branch created
+-   `PHX-821-fix-bug` - if task exists when branch created
 -   `NOTASK-update-deps` - if task do not exists when branch created
 
 ## Commit naming
 
 Format of commit messages:
 
-> PROJ-{task-number}: What has been done
+> PHX-{task-number}: What has been done
 
 Examples:
 
--   `PROJ-872: Update mobx to 0.1.2`
--   `PROJ-324: Added shift and debugVideoPos. Upd docs`
+-   `PHX-872: Update mobx to 0.1.2`
+-   `PHX-324: Added shift and debugVideoPos. Upd docs`
 -   `NOTASK: Logging into chat`
 
 ## Git flow
