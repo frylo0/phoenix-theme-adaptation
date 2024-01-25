@@ -5,7 +5,7 @@ const root = style({
 	fontWeight: 600,
 	display: 'flex',
 	flexDirection: 'row',
-	alignItems: 'baseline',
+	alignItems: 'center',
 	color: 'rgb(49, 55, 74)',
 	gap: 8,
 });
