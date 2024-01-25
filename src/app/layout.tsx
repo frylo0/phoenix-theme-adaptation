@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 				<WithClientAuth>
 					<Header />
 
-					<main>
+					<main className="two-cols">
 						<SideMenu />
 						{children}
 					</main>
